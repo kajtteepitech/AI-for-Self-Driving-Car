@@ -1,0 +1,31 @@
+The communication is done via a text-type protocol:
+(Compile and run n4s to communicate)
+
+command:                valuerange:     answer type:
+
+START_SIMULATION        -               (1)
+STOP_SIMULATION         -               (1)
+CAR_FORWARD:float       [0;1]           (1)
+CAR_BACKWARDS:float     [0;1]           (1)
+WHEELS_DIR:float        [-1;1]          (1)
+GET_INFO_LIDAR          -               (2)
+GET_CURRENT_SPEED       -               (3)
+GET_CURRENT_WHEELS      -               (3)
+CYCLE_WAIT:int          [0; INT_MAX]    (3)
+GET_CAR_SPEED_MAX       -               (3)
+GET_CAR_SPEED_MIN       -               (3)
+GET_INFO_SIMTIME        -               (4)
+
+
+Here are the different answer formats, corresponding to each type:
+
+    (1): VALUE_ID:STATUS:CODE_STR:ADDITIONNAL_INFO
+    (2): VALUE_ID:STATUS:CODE_STR[:float]*32:ADDITIONNAL_INFO
+    (3): VALUE_ID:STATUS:CODE_STR:float:ADDITIONNAL_INFO
+    (4): VALUE_ID:STATUS:CODE_STR:[long,long]:ADDITIONNAL_INFO
+
+
+Makefile commands:
+    make - compile all for the first time
+    make re - if already compiled and not cleaned
+    make fclean - clean
