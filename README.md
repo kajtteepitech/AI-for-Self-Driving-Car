@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kajtteepitech/AI-for-Self-Driving-Car?style=for-the-badge)](https://github.com/kajtteepitech/AI-for-Self-Driving-Car/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/kajtteepitech/AI-for-Self-Driving-Car?style=for-the-badge)](https://github.com/kajtteepitech/AI-for-Self-Driving-Car/issues)
 [![GitHub license](https://img.shields.io/github/license/kajtteepitech/AI-for-Self-Driving-Car?style=for-the-badge)](https://github.com/kajtteepitech/AI-for-Self-Driving-Car)
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/ilia-s-a43b3b203/]
 # AI-for-Self-Driving-Car
 Simple AI to manipulate a car
 
@@ -37,4 +37,4 @@ Run this command in the root of this repository:
 ```
 ./pipes.sh
 ```
-<img alt="Demo" src="demo.gif"/>
+<img alt="Demo" src="/info/demo.gif"/>
