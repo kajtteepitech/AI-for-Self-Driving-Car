@@ -37,4 +37,4 @@ Run this command in the root of this repository:
 ```
 ./pipes.sh
 ```
-<img alt="Demo" src="/info/demo.gif"/>
+<img alt="Demo" src="/Info/demo.gif"/>
