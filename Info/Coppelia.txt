@@ -1,0 +1,3 @@
+If README link to download CoppeliaSim doesn't work anymore try this ones:
+https://www.coppeliarobotics.com/downloads
+https://www.coppeliarobotics.com/
